@@ -1,9 +1,9 @@
-defmodule SaddlebackSearch.MixProject do
+defmodule Selection.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :saddleback_search,
+      app: :selection,
       version: "0.1.0",
       elixir: "~> 1.12",
       build_path: "../../pfad_umbrella/_build",
@@ -25,9 +25,8 @@ defmodule SaddlebackSearch.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:benchee, "~> 1.0", only: :dev},
-      {:benchee_markdown, "~> 0.2", only: :dev},
-      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
+      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
 end
