@@ -7,6 +7,10 @@ defmodule SaddlebackSearch.MixProject do
       version: "0.1.0",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
+      build_path: "../../pfad_umbrella/_build",
+      config_path: "../../pfad_umbrella/config/config.exs",
+      deps_path: "../../pfad_umbrella/deps",
+      lockfile: "../../pfad_umbrella/mix.lock",
       deps: deps()
     ]
   end

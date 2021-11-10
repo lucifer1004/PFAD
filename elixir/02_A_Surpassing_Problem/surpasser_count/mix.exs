@@ -6,6 +6,10 @@ defmodule SurpasserCount.MixProject do
       app: :surpasser_count,
       version: "0.1.0",
       elixir: "~> 1.12",
+      build_path: "../../pfad_umbrella/_build",
+      config_path: "../../pfad_umbrella/config/config.exs",
+      deps_path: "../../pfad_umbrella/deps",
+      lockfile: "../../pfad_umbrella/mix.lock",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
