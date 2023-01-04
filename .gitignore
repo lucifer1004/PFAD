@@ -41,3 +41,5 @@ cabal.project.local~
 .ghc.environment.*
 
 # End of https://www.gitignore.io/api/elixir,haskell
+
+.vscode
