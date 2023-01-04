@@ -14,8 +14,8 @@ jobs:
         working-directory: ./elixir/pfad_umbrella
     strategy:
       matrix:
-        otp: ['24.1']
-        elixir: ['1.12.3']
+        otp: ['25']
+        elixir: ['1.14']
     steps:
       - uses: actions/checkout@v3
       - uses: erlef/setup-beam@v1
