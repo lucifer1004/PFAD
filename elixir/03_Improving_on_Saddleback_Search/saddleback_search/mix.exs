@@ -26,7 +26,7 @@ defmodule SaddlebackSearch.MixProject do
   defp deps do
     [
       {:benchee, "~> 1.0", only: :dev},
-      {:benchee_markdown, "~> 0.2", only: :dev},
+      {:benchee_markdown, "~> 0.3", only: :dev},
       {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
